@@ -1,7 +1,16 @@
 .header {
-    background: #333;
-    height: 80px;
+    background: var(--gray-800);
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.header img{
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.header strong {
+    font-size: 1.25rem;
+    padding: 0.5rem 0;
 }
