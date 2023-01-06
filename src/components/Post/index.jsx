@@ -18,12 +18,27 @@ export function Post(){
             </header>
             <div className={styles.content}>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laudantium soluta numquam rem eaque. Tempore dolorum, ea culpa deleniti ipsum, in neque excepturi sit nihil nemo quisquam, porro molestias fugiat.
+                    Fala galeraa 👋
                 </p>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ad fugit harum, error aliquam sunt repudiandae corporis a amet vitae deserunt nam qui. Id doloribus nulla suscipit dignissimos illum obcaecati?
+                    Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
                 </p>
+                <p>
+                    <a href="#">👉 {' '} jane.design/doctorcare</a>
+                </p>
+                <a href="#">#novoprojeto</a>{' '}
+                <a href="#">#nlw</a>{' '}
+                <a href="#">#rocketseat</a>
             </div>
+            <form className={styles.commentForm}>
+                <strong>Deixe seu feedback</strong>
+                <textarea
+                    placeholder='Deixe um comentário' 
+                />
+                <footer>
+                    <button type='submit'>Publicar</button>
+                </footer>
+            </form>
         </article>
     );
 }
