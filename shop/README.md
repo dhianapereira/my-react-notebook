@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite Shop
 
-## Getting Started
+## :art: Design
+O design da aplicação foi criado no Figma. Para acessar [clique aqui](https://www.figma.com/file/3pVwmSbjKMq8lotvYBkwnD/Ignite-Shop-%E2%80%A2-Projeto-React-(Copy)?type=design&node-id=2%3A12&mode=design&t=3IK6nMSdppbPcIT8-1).
 
-First, run the development server:
+![Design](https://github.com/dhianapereira/my-react-notebook/assets/40719464/2761f9c1-97d3-4005-ab14-58575fee32ce)
 
+## :wrench: Ambiente de Desenvolvimento
+Para evitar problemas é legal que seu ambiente de desenvolvimento esteja com
+as seguintes versões:
+
+| Ferramenta | Versão |
+| --- | --- |
+| Git | A mais recente |
+| NodeJS | v18.17.1 |
+
+## :compass: Guia de Instalação
+> Com as ferramentas devidamente instaladas, execute os comandos abaixo
+
+### **1. Clonar repositório**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/dhianapereira/my-react-notebook.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **2. Entrar na pasta do projeto**
+```bash
+cd my-react-notebook/shop
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### **3. Instalar as dependências**
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### **4. Criar arquivo de variáveis de ambiente**
+Crie uma cópia do arquivo [`.env.example`](./.env.example) na raiz do projeto com o nome `.env.local` e preencha com os devidos valores.
 
-## Learn More
+#### Para obter a chave de API do Stripe, siga esse passo a passo:
 
-To learn more about Next.js, take a look at the following resources:
+1. Acesse a o site e crie uma conta [aqui](https://dashboard.stripe.com/login)
+2. Dentro da plataforma crie uma nova conta com o nome **shop**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Criar nova conta](https://github.com/dhianapereira/my-react-notebook/assets/40719464/17bb64d1-cc61-4c0d-b4a8-693b1b123b1c)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Clique na seção **Chaves de API** que está na página **Desenvolvedores** 
 
-## Deploy on Vercel
+![Seção de Desenvolvedor](https://github.com/dhianapereira/my-react-notebook/assets/40719464/58135a21-49e4-452d-948f-7f57e2041377)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### **5. Executar a aplicação**
+```bash
+npm run dev
+```
