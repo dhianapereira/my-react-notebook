@@ -35,7 +35,7 @@ export function ClaimUsernameForm() {
             <Form as="form" onSubmit={handleSubmit(handleClaimUsername)}>
                 <TextInput
                     size="sm"
-                    prefix="cal.com/"
+                    prefix="call.com/"
                     placeholder="seu-usuario"
                     crossOrigin="anonymous"
                     {...register('username')}
