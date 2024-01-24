@@ -43,6 +43,8 @@ export default function Register() {
                 username: data.username,
                 name: data.name
             })
+
+            await router.push('/register/connect-calendar')
         } catch (error) {
             console.error(error)
         }
