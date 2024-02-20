@@ -37,16 +37,16 @@ Crie uma cópia do arquivo [`.env.example`](./.env.example) na raiz do projeto c
 
 #### Para obter a chave de API do Stripe, siga esse passo a passo:
 
-1. Acesse a o site e crie uma conta [aqui](https://dashboard.stripe.com/login)
+1. Acesse o site e crie uma conta [aqui](https://dashboard.stripe.com/login)
 2. Dentro da plataforma crie uma nova conta com o nome **shop**
 
 ![Criar nova conta](https://github.com/dhianapereira/my-react-notebook/assets/40719464/17bb64d1-cc61-4c0d-b4a8-693b1b123b1c)
 
 3. Clique na seção **Chaves de API** que está na página **Desenvolvedores** 
 
-Para obter mais informações sobre o Stripe e como testar a aplicação sem utilizar um cartão de verdade basta acessar a documentação [aqui](https://stripe.com/docs).
-
 ![Seção de Desenvolvedor](https://github.com/dhianapereira/my-react-notebook/assets/40719464/58135a21-49e4-452d-948f-7f57e2041377)
+
+Para obter mais informações sobre o Stripe e como testar a aplicação sem utilizar um cartão de verdade basta acessar a documentação [aqui](https://stripe.com/docs).
 
 ### **5. Executar a aplicação**
 ```bash
